@@ -4,9 +4,10 @@
 
 #Project_1
 
-I know basics of Frontend development. I generally face problem in padding and margin properties. Hope I will learn that through practicing.
+I already knew basics of Frontend development before the start of LEAD. I'd started learning Frontend Web Development from March. 
+Looking forward to learn new techniques through the project.
 
 While doing the project,
- I learnt to use the flex property. 
- I also learnt to use the css clip path generator which is really helpful in shaping different things.
+ - I learnt to use the flex property. 
+ - I also learnt to use the css clip path generator which is really helpful in shaping different things.
 
