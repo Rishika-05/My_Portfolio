@@ -4,7 +4,8 @@
 
 #Project_1
 
-I already knew basics of Frontend development. Looking forward to learn more through the project.
+I already knew basics of Frontend development before the start of LEAD. I'd started learning Frontend Web Development from March. 
+Looking forward to learn new techniques through the project.
 
 While doing the project,
  - I learnt to use the flex property. 
