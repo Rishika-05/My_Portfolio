@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: :border-box;
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+	background: url("../images/bg1.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	clip-path: polygon(50% 0%, 100% 0, 100% 53%, 43% 77%, 0 56%, 0 0);
+}
+.logo{
+	color: white;
+	font-size: 50px;
+	padding-left: 100px;
+	letter-spacing: 3px;
+}
+.logo span{
+	color:#4169E1;
+}
+
+.menu{
+	margin-right: 100px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav{
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: : center;
+	justify-content: space-between;
+}
+
+.menu a:hover{
+	background: #4169E1;
+	transition: 0.3;
+}
+
+.text{
+	color: white;
+	margin-top: 100px;
+	margin-left: 400px;
+	max-width: 450px;
+}
+
+.text h1{
+	font-size: 50px;
+	margin: 10px 0px 
+}
+.text p{
+	font-size: 30px;
+}
+.text span{
+	color: #4169E1;
+}
+
+#about{
+	padding:50px 50px;
+}
+
+.sec-info{
+	font-weight: bold;
+	text-align: center;
+}
+.sec-info h1
+{
+	font-size: 50px;
+}
+.sec-info p{
+	color:#4169E1;
+	font-size: 30px 
+}
+
+.about-row{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.about-l{
+	flex-basis: 40%;
+}
+
+.about-l img{
+	width: 300px;
+	height: 300px;
+	padding: 50px;
+	padding-right: 20px;
+}
+.about-r{
+	flex-basis: 60%; 
+}
+.about-r{
+	padding-top: 90px;
+}
+
+#ptitle{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.about-r p{
+	font-size: 20px;
+	text-align: justify;
+}
+.about-r span{
+	color:  #4169E1;
+}
