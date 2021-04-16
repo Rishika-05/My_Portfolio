@@ -4,7 +4,7 @@
 
 #Project_1
 
-I know basics of Frontend development. I generally face problem in padding and margin properties. Hope I will learn that through practicing.
+I know basics of Frontend development. Hope I will learn more through project.
 
 While doing the project,
  I learnt to use the flex property. 
