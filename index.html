@@ -3,16 +3,18 @@
 <head>
 	<title>My Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="styles/media.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 </head>
 <body>
-<header>
+<header id="home">
 	<nav>
 		<div class="logo">PORT<span>FOLIO</span></div>
 		<div class="menu">
-			<a href="#"> Home</a>
-			<a href="#"> About</a>
-			<a href="#"> Skills</a>
-			<a href="#"> Contact</a>
+			<a href="#home"> Home</a>
+			<a href="#about"> About</a>
+			<a href="#skills"> Skills</a>
+			<a href="#contacts"> Contact</a>
 		</div>
 	</nav>
 
@@ -24,12 +26,12 @@
 </header>
 <section id="about">
 	<div class="sec-info">
-		<h1>About</h1>
+		<h1>About Me</h1>
 		<p>Who I Am.</p>
 	</div>
 	<div class="about-row">
 		<div class="about-l">
-			<img src="images/vector_art.jpg">
+			<img src="images/vector_art.jpg" alt="my photo">
 		</div>
 		<div class="about-r">
 			<p id="ptitle">
@@ -43,6 +45,120 @@
 
 </section>
 
+<section id="skills">
+	<div class="sec-info">
+		<h1 style="color: white;">My Skills</h1>
+		<p>What I Know.</p>
+	</div>
+	<div class="skill-row">
+		<div class="skill-l">
+			<p>
+				I know intermediate level of C/C++. I'm currently learning data structures and algorithms. I also have basic knowledge about HTML, CSS and JavaScript. I've idea about Microsoft Office. I'm good at putting forward my ideas. I'm good at commuticating and presenting my skills.
+			</p>
+		</div>
+		<div class="skill-r">
+			<div class="progress">
+				<p>
+				<span>C/C++</span><br>
+				<progress value="70" max="100"></progress>
+				<span>70%</span>
+				</p>
+				<p>
+				<span>HTML</span><br>
+				<progress value="80" max="100"></progress>
+				<span>80%</span>
+				</p>
+				<p>
+				<span>CSS</span><br>
+				<progress value="60" max="100"></progress>
+				<span>60%</span>
+				</p>
+				<p>
+				<span>JavaScript</span><br>
+				<progress value="65" max="100"></progress>
+				<span>65%</span>
+				</p>
+				<p>
+				<span>JQuery</span><br>
+				<progress value="50" max="100"></progress>
+				<span>50%</span>
+				</p>
+			</div>
+		</div>
+		
+	</div>
+</section>
+
+<section id="contacts">
+	<div class="sec-info">
+		<h1>Contact Me</h1>
+		<p>Get in touch</p>
+	</div>
+	<div class="contact-row">
+		<div class="contact-l">
+			<div class="icons-1">
+			<div class="row">
+				<i class="fas fa-user fa-custom"></i>
+				<div class="info">
+					<div class="head">Name</div>
+					<div class="sub-tit">Rishika Raj</div>
+				</div>
+			</div>
+			<div class="row">
+				<i class="fas fa-map-marker-alt"></i>
+				<div class="info">
+					<div class="head">Address</div>
+					<div class="sub-tit">Dhanbad, Jharkhand, 828127</div>
+				</div>
+			</div>
+			<div class="row">
+				<i class="fas fa-envelope fa-custom"></i>
+				<div class="info">
+					<div class="head">Email</div>
+					<div class="sub-tit"><a href="mailto:rishikaraj7263@gmail.com">rishikaraj7263@gmail.com</a></div>
+				</div>
+			</div>
+			</div>
+			<div class="icons-2">
+			<div class="row">
+				<i class="fab fa-github fa-custom"></i>
+				<div class="info">
+					<div class="head">GitHub's Profile</div>
+					<div class="sub-tit"><a href="https://github.com/Rishika-05">@Rishika-05</a></div>
+				</div>
+			</div>
+			<div class="row">
+				<i class="fab fa-linkedin-in  fa-custom"></i>
+				<div class="info">
+					<div class="head">Linkedln's Profile</div>
+					<div class="sub-tit"><a href="https://www.linkedin.com/in/rishika-raj-79b970200/">@Rishika_Raj</a></div>
+				</div>
+			</div>
+			<div class="row">
+				<i class="fab fa-twitter fa-custom"></i>
+				<div class="info">
+					<div class="head">Twitter's Profile</div>
+					<div class="sub-tit"><a href="https://twitter.com/R_i_s_h_i_k_a?s=09">@R_i_s_h_i_k_a</a></div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="contact-r">
+			<form>
+				<h2>Connect with me</h2>
+				<input type="text" name="" placeholder="Your name">
+				<input type="email" name="" placeholder="Your E-mail"><br>
+			<textarea cols="40" rows="6" placeholder="Your Message"></textarea><br>
+			<button class="btn" style="font-size: 17px;">Submit</button>
+			</form>
+		</div>
+		
+	</div>
+</section>
+
+<footer>
+	<span>Created by <a href="#">Rishika Raj </a><span class="far fa-copyright fa-custom"></span> 2021 All rights reserved</span>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/app.js"></script>
