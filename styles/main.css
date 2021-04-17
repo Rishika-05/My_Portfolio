@@ -6,8 +6,9 @@
 
 header{
 	width: 100%;
-	height: 80vh;
+	height: 100vh;
 	background: url("../images/bg1.jpg");
+	background-attachment: fixed; 
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	clip-path: polygon(50% 0%, 100% 0, 100% 75%, 51% 97%, 0 75%, 0 0);
@@ -123,4 +124,130 @@ nav{
 }
 .about-r span{
 	color:  #4169E1;
+}
+
+#skills{
+	padding:100px 50px; 
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/computer.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+    background-size: 100% 100%; 
+	clip-path: polygon(50% 0%, 100% 12%, 100% 100%, 50% 100%, 0 100%, 0 12%);
+}
+.skill-row{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: rgb(45,52,54);
+	padding:100px 50px;
+	color: white;
+}
+
+.skill-l, .skill-r{
+	flex-basis: 50%;
+}
+
+.skill-l{
+	text-align: justify;
+	color: white;
+}
+.skill-l p{
+
+	font-size: 20px;
+}
+progress{
+	width: 80%;
+}
+.progress{
+	width: 70%;
+	margin: auto;
+}
+.progress p{
+	font-size: 17px;
+	padding-top: 10px;
+	padding-left: 60px;
+	text-align: justify; 
+}
+
+#contacts{
+	padding: 100px 50px;
+}
+
+.contact-row{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 100px 30px 30px ;
+}
+
+.contact-l{
+	flex-basis: 50%;
+}
+.contact-r{
+	flex-basis: 50%;
+}
+.contact-r form{
+	text-align: center;	
+}
+
+.contact-r form h2{
+	margin-bottom: 20px;
+}
+
+.contact-r form input{
+	width: 60%;
+	padding: 10px;
+	margin-bottom: 10px; 
+}
+
+textarea{
+	width: 60%;
+	padding: 10px;
+}
+
+.btn{
+	border:none;
+	outline: none;
+	color: white;
+	background: #4169E1;
+	padding: 10px;
+	margin-top: 20px;
+
+}
+
+footer{
+	background: #4169E1;
+	color: white;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.contact-l .row{
+	display: flex;
+	height: 50px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.contact-l .row .info{
+	margin-left: 20px;
+}
+.contact-l .row .info .head{
+	font-weight: bold;
+}
+
+.contact-l .row i {
+	font-size: 20px;
+	color: #4169E1;
+}
+.contact-l .row {
+	padding-top: 10px;
+}
+.contact-l .sub-tit a{
+	text-decoration: none;
+	color: #4169E1;
 }
