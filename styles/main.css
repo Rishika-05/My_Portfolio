@@ -4,6 +4,10 @@
 	box-sizing: :border-box;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 header{
 	width: 100%;
 	height: 100vh;
@@ -127,7 +131,7 @@ nav{
 }
 
 #skills{
-	padding:100px 50px; 
+	padding:70px 50px 50px; 
 	background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/computer.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -141,7 +145,7 @@ nav{
 	align-items: center;
 	flex-wrap: wrap;
 	background: rgb(45,52,54);
-	padding:100px 50px;
+	padding:50px 50px;
 	color: white;
 }
 
@@ -154,7 +158,7 @@ nav{
 	color: white;
 }
 .skill-l p{
-
+    text-align: justify;
 	font-size: 20px;
 }
 progress{
@@ -172,7 +176,7 @@ progress{
 }
 
 #contacts{
-	padding: 100px 50px;
+	padding: 70px 50px;
 }
 
 .contact-row{
@@ -180,14 +184,35 @@ progress{
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 100px 30px 30px ;
+	padding: 80px 30px 0 30px ;
 }
 
 .contact-l{
+	flex-basis: 60%;
+}
+
+.contact-l{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.contact-l .icons-1{
 	flex-basis: 50%;
+	align-items: center;
+}
+
+.contact-l .icons-2{
+	flex-basis: 50%;
+	align-items: center;
+}
+
+.sub-tit{
+	padding-top: 5px;
 }
 .contact-r{
-	flex-basis: 50%;
+	flex-basis: 40%;
 }
 .contact-r form{
 	text-align: center;	
@@ -222,32 +247,39 @@ footer{
 	background: #4169E1;
 	color: white;
 	padding: 20px;
+	font-size: 25px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 }
-
+footer a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold; 
+}
 .contact-l .row{
 	display: flex;
 	height: 50px;
-	align-items: center;
-	flex-wrap: wrap;
+	margin-bottom: 10px;
 }
 .contact-l .row .info{
 	margin-left: 20px;
+	font-size: 20px;
 }
 .contact-l .row .info .head{
 	font-weight: bold;
 }
 
 .contact-l .row i {
-	font-size: 20px;
+	font-size: 22px;
 	color: #4169E1;
 }
 .contact-l .row {
-	padding-top: 10px;
+	padding-top: 15px;
 }
 .contact-l .sub-tit a{
 	text-decoration: none;
 	color: #4169E1;
 }
+
+
