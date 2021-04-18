@@ -1,16 +1,17 @@
-@media only screen and (max-width: 770px){
+@media only screen and (max-width: 600px){
 	.menu a{
 		display: none;
 	}
 	header{
-		height: 50vh;
+		height: 60vh;
 	}
 	.logo{
 		padding-left: 50px;
 	}
 	header .text{
-		margin-top: 200px;
-		margin-left: 400px; 
+		margin-top: 50px;
+		margin-left: 140px;
+
 	}
 
 	.about-l{

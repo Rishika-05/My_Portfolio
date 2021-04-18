@@ -184,11 +184,11 @@ progress{
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 80px 30px 0 30px ;
+	padding: 80px 20px 0 20px ;
 }
 
 .contact-l{
-	flex-basis: 60%;
+	flex-basis: 50%;
 }
 
 .contact-l{
@@ -199,12 +199,12 @@ progress{
 }
 
 .contact-l .icons-1{
-	flex-basis: 50%;
+	flex-basis: 60%;
 	align-items: center;
 }
 
 .contact-l .icons-2{
-	flex-basis: 50%;
+	flex-basis: 40%;
 	align-items: center;
 }
 
@@ -212,7 +212,7 @@ progress{
 	padding-top: 5px;
 }
 .contact-r{
-	flex-basis: 40%;
+	flex-basis: 50%;
 }
 .contact-r form{
 	text-align: center;	
@@ -281,7 +281,6 @@ footer a{
 	text-decoration: none;
 	color: #4169E1;
 }
-
 
 
 .progress p{
