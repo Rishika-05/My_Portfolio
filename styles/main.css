@@ -35,13 +35,13 @@ header{
 .menu a{
 	text-decoration: none;
 	color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 5px;
-    font-size: 25px;
-    font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 5px;
+	font-size: 25px;
+	font-weight: bold;
 }
 
 nav{
@@ -59,48 +59,46 @@ nav{
 
 .text{
 	color: white;
-	margin-top: 100px;
+	margin-top: 120px;
 	margin-left:485px;
 	max-width: 450px;
 }
 
 .text h1{
-	font-size: 50px;
+	font-size: 60px;
 	margin: 10px 0px 
 }
 .text p{
-	font-size: 30px;
+	font-size: 35px;
 }
 .text span{
 	color: #4169E1;
 }
-
+/*
 #sidenav
- {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 0px;
-		height: 100vh;
-		background:rgba(0,0,0,0.8);
-		padding: 100px 0px;
-	}
-
-	#sidenav a
-	{
-		text-decoration: none;
-		color: white;
-		font-size: 0px;
-		padding-bottom: 20px;
-		padding-left: 5px;  
-		margin:10px 30px;
-		display: block;
-	}
-
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 240px;
+	height: 100vh;
+	background:rgba(0,0,0,0.8);
+	padding: 100px 0px;
+}*/
+#sidenav{
+	display: none;
+}
 #menubar{
-	
+	position: fixed;
+	top: 6px;
+	right: 40px;
+	width: 0px;
+	cursor: pointer;
 }
 
+#menubar img{
+	color: white;
+}
 
 #about{
 	padding:50px 50px;
@@ -163,7 +161,7 @@ nav{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 
-    background-size: 100% 100%; 
+	background-size: 100% 100%; 
 	clip-path: polygon(50% 0%, 100% 12%, 100% 100%, 50% 100%, 0 100%, 0 12%);
 }
 .skill-row{
@@ -185,7 +183,7 @@ nav{
 	color: white;
 }
 .skill-l p{
-    text-align: justify;
+	text-align: justify;
 	font-size: 20px;
 }
 progress{
@@ -198,12 +196,12 @@ progress{
 .progress p{
 	font-size: 17px;
 	padding-top: 10px;
-	padding-left: 60px;
+	align-items: center;;
 	text-align: justify; 
 }
 
 #contacts{
-	padding: 70px 50px;
+	padding: 50px 50px;
 }
 
 .contact-row{
@@ -213,7 +211,7 @@ progress{
 	flex-wrap: wrap;
 	padding: 80px 20px 0 20px ;
 }
-
+/*
 .contact-l{
 	flex-basis: 50%;
 }
@@ -223,15 +221,17 @@ progress{
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-}
 
-.contact-l .icons-1{
-	flex-basis: 60%;
+.contact-l 
+}*/
+
+.icons-1{
+	flex-basis: 30%;
 	align-items: center;
 }
 
-.contact-l .icons-2{
-	flex-basis: 40%;
+ .icons-2{
+	flex-basis: 20%;
 	align-items: center;
 }
 
@@ -284,27 +284,28 @@ footer a{
 	color: white;
 	font-weight: bold; 
 }
-.contact-l .row{
+.row{
 	display: flex;
 	height: 50px;
-	margin-bottom: 10px;
+	margin-bottom: 10px;]
+	padding-left: 20px; 
 }
-.contact-l .row .info{
+.row .info{
 	margin-left: 20px;
 	font-size: 20px;
 }
-.contact-l .row .info .head{
+ .row .info .head{
 	font-weight: bold;
 }
 
-.contact-l .row i {
+.row i {
 	font-size: 22px;
 	color: #4169E1;
 }
-.contact-l .row {
+ .row {
 	padding-top: 15px;
 }
-.contact-l .sub-tit a{
+.sub-tit a{
 	text-decoration: none;
 	color: #4169E1;
 }
@@ -316,5 +317,3 @@ footer a{
 	padding-left: 20px;
 	text-align: justify; 
 }
-
-
