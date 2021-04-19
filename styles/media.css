@@ -1,5 +1,9 @@
 @media only screen and (max-width: 600px){
 	
+	header{
+		height: 90vh;
+	}
+
 	#sidenav
 	{
 		position: fixed;
@@ -31,15 +35,13 @@
 	.menu a{
 		display: none;
 	}
-	header{
-		height: 100vh;
-	}
+
 	.logo{
 		padding-left: 50px;
 	}
 	header .text{
-		margin-top: 50px;
-		margin-left: 140px;
+		margin-top: 90px;
+		margin-left: 110px;
 
 	}
 
