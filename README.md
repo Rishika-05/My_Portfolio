@@ -12,6 +12,6 @@ While doing the project,
  - I also learnt to use the css clip path generator which is really helpful in shaping different things.
  - I learnt about progress tag.
  - I got to know about Font Awesome and used it.It's amazing.
- - I learnt to add a reponsive navigation bar using jQuery.
+ - I learnt to add a reponsive navigation bar using jQuery for making it mobile friendly.
  - I also leart to call API using JS and make changes in the main file using jQuery.
 

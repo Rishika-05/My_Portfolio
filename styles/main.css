@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: :border-box;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 html{
@@ -10,8 +11,9 @@ html{
 
 header{
 	width: 100%;
-	height: 100vh;
-	background: url("../images/bg1.jpg");
+	height: 90vh;
+	top: 0;
+	background-image: url("../images/bg1.jpg");
 	background-attachment: fixed; 
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -20,15 +22,16 @@ header{
 .logo{
 	color: white;
 	font-size: 50px;
-	padding-left: 100px;
+	padding-left: 65px;
 	letter-spacing: 3px;
+	overflow-x:hidden; 
 }
 .logo span{
 	color:#4169E1;
 }
 
 .menu{
-	margin-right: 100px;
+	padding-right: 55px;
 	padding-top: 15px;
 }
 
@@ -37,18 +40,21 @@ header{
 	color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
 	margin: 5px;
 	font-size: 25px;
 	font-weight: bold;
 }
 
-nav{
+#topbar {
 	width: 100%;
+	top:0;
 	height: 70px;
 	display: flex;
-	align-items: : center;
+	background-color: black;
+	position: fixed;
+	align-items: center;
 	justify-content: space-between;
 }
 
@@ -59,7 +65,7 @@ nav{
 
 .text{
 	color: white;
-	margin-top: 120px;
+	padding-top: 170px;
 	margin-left:485px;
 	max-width: 450px;
 }
@@ -73,6 +79,7 @@ nav{
 }
 .text span{
 	color: #4169E1;
+	font-weight: bold;
 }
 /*
 #sidenav
@@ -102,7 +109,7 @@ nav{
 }*/
 
 #about{
-	padding:50px 50px;
+	padding:80px 50px 20px 0px;
 }
 
 .sec-info{
@@ -245,7 +252,7 @@ fieldset{
 }
 
 #contacts{
-	padding: 50px 50px;
+	padding: 70px 50px 20px 50px;
 
 }
 
