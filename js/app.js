@@ -1,9 +1,16 @@
 
 
 var menu=document.getElementById("menubar");
+var hid=document.getElementById("hide");
+var hid2=document.getElementById("hide2");
+var hid3=document.getElementById("hide3");
+var hid4=document.getElementById("hide4");
+var hid5=document.getElementById("hide5");
 //var sidenav=document.getElementById("sidenav");
 $("#sidenav").css("width","0px");
 $("#sidenav").css("font-size","0px");
+
+
 menu.onclick=function(){
 	if (sidenav.style.width=="0px"){
 		$("#sidenav").css("width","230px");
@@ -14,6 +21,38 @@ menu.onclick=function(){
 		$("#sidenav").css("font-size","0px");
 	}
 }
+
+hid.onclick=function(){
+	if (sidenav.style.width=="230px"){
+		$("#sidenav").css("width","0px");
+		$("#sidenav").css("font-size","0px");
+	}
+}
+hid2.onclick=function(){
+	if (sidenav.style.width=="230px"){
+		$("#sidenav").css("width","0px");
+		$("#sidenav").css("font-size","0px");
+	}
+}
+hid3.onclick=function(){
+	if (sidenav.style.width=="230px"){
+		$("#sidenav").css("width","0px");
+		$("#sidenav").css("font-size","0px");
+	}
+}
+hid4.onclick=function(){
+	if (sidenav.style.width=="230px"){
+		$("#sidenav").css("width","0px");
+		$("#sidenav").css("font-size","0px");
+	}
+}
+hid5.onclick=function(){
+	if (sidenav.style.width=="230px"){
+		$("#sidenav").css("width","0px");
+		$("#sidenav").css("font-size","0px");
+	}
+}
+
 
 const url1 = 'https://codeforces.com/api/user.info?handles=_Rishika_';
 const url2 = 'https://codeforces.com/api/user.status?handle=_Rishika_&from=1&count=1000';
