@@ -12,7 +12,7 @@ html{
 #topbar {
 	width: 100%;
 	top:0;
-	height: 70px;
+	height: 60px;
 	z-index:1;
 	display: flex;
 	background-color: black;
@@ -47,17 +47,17 @@ header{
 
 .menu{
 	padding-right: 50px;
-	padding-top: 15px;
+	padding-top: 10px;
 }
 
 .menu a{
 	text-decoration: none;
 	color: white;
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-bottom: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
-	margin: 5px;
+	margin: 2px 5px 5px 5px;
 	font-size: 25px;
 	font-weight: bold;
 }
@@ -330,8 +330,8 @@ textarea{
 footer{
 	background: #4169E1;
 	color: white;
-	padding: 20px;
-	font-size: 25px;
+	padding: 15px;
+	font-size: 22px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
