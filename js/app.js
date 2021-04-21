@@ -1,57 +1,66 @@
 
 
 var menu=document.getElementById("menubar");
-var hid=document.getElementById("hide");
+var hid=document.getElementById("hidden");
+/*
 var hid2=document.getElementById("hide2");
 var hid3=document.getElementById("hide3");
 var hid4=document.getElementById("hide4");
-var hid5=document.getElementById("hide5");
+var hid5=document.getElementById("hide5");*/
 //var sidenav=document.getElementById("sidenav");
 $("#sidenav").css("width","0px");
-$("#sidenav").css("font-size","0px");
-
+//$("#sidenav").css("font-size","0px");
+$("#hidden").css("display","none");
 
 menu.onclick=function(){
 	if ($("#sidenav").css("width")=="0px"){
 		$("#sidenav").css("width","230px");
-		$("#sidenav").css("font-size","25px");
+		//$("#sidenav").css("font-size","25px");
+		$("#hidden").css("display","block");
 	}
 	else{
 		$("#sidenav").css("width","0px");	
-		$("#sidenav").css("font-size","0px");
+		$("#hidden").css("display","none");
+
 	}
 }
 
 hid.onclick=function(){
 	if ($("#sidenav").css("width")=="230px"){
 		$("#sidenav").css("width","0px");
-		$("#sidenav").css("font-size","0px");
+		$("#hidden").css("display","none");
 	}
 }
+/*
 hid2.onclick=function(){
 	if ($("#sidenav").css("width")=="230px"){
 		$("#sidenav").css("width","0px");
+		$("#hidden").css("display","none");
 		$("#sidenav").css("font-size","0px");
 	}
 }
 hid3.onclick=function(){
 	if ($("#sidenav").css("width")=="230px"){
 		$("#sidenav").css("width","0px");
+		$("#hidden").css("display","none");
 		$("#sidenav").css("font-size","0px");
 	}
 }
 hid4.onclick=function(){
 	if ($("#sidenav").css("width")=="230px"){
 		$("#sidenav").css("width","0px");
+		$("#hidden").css("display","none");
 		$("#sidenav").css("font-size","0px");
 	}
 }
 hid5.onclick=function(){
 	if ($("#sidenav").css("width")=="230px"){
 		$("#sidenav").css("width","0px");
+		$("#hidden").css("display","none");
 		$("#sidenav").css("font-size","0px");
 	}
 }
+*/
 
 $(document).ready(function(){
 

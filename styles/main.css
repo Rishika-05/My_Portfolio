@@ -9,29 +9,40 @@ html{
 	scroll-behavior: smooth;
 }
 
+#topbar {
+	width: 100%;
+	top:0;
+	height: 70px;
+	display: flex;
+	background-color: black;
+	position: fixed !important;
+	align-items: center;
+	justify-content: space-between;
+}
+
 header{
 	width: 100%;
 	height: 90vh;
 	top: 0;
-	background-image: url("../images/bg1.jpg");
+	background-image: url("../images/bg1.jpg"); 
 	background-attachment: fixed; 
-	background-size: 100% 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	clip-path: polygon(50% 0%, 100% 0, 100% 75%, 51% 97%, 0 75%, 0 0);
 }
+
 .logo{
 	color: white;
 	font-size: 50px;
-	padding-left: 65px;
-	letter-spacing: 3px;
-	overflow-x:hidden; 
+	padding-left: 50px;
+	letter-spacing: 3px; 
 }
 .logo span{
 	color:#4169E1;
 }
 
 .menu{
-	padding-right: 55px;
+	padding-right: 50px;
 	padding-top: 15px;
 }
 
@@ -47,17 +58,6 @@ header{
 	font-weight: bold;
 }
 
-#topbar {
-	width: 100%;
-	top:0;
-	height: 70px;
-	display: flex;
-	background-color: black;
-	position: fixed;
-	align-items: center;
-	justify-content: space-between;
-}
-
 .menu a:hover{
 	background: #4169E1;
 	transition: 0.3;
@@ -65,8 +65,10 @@ header{
 
 .text{
 	color: white;
-	padding-top: 170px;
-	margin-left:485px;
+	padding-top: 210px;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center; 
 	max-width: 450px;
 }
 
@@ -168,7 +170,6 @@ header{
 	background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/computer.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-
 	background-size: 100% 100%; 
 	clip-path: polygon(50% 0%, 100% 12%, 100% 100%, 50% 100%, 0 100%, 0 12%);
 }
@@ -252,7 +253,7 @@ fieldset{
 }
 
 #contacts{
-	padding: 70px 50px 20px 50px;
+	padding: 70px 10px 40px 40px;
 
 }
 
@@ -261,7 +262,7 @@ fieldset{
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 80px 20px 0 20px ;
+	padding: 80px 10px 10px 20px ;
 }
 /*
 .contact-l{
