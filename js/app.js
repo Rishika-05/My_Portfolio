@@ -62,9 +62,6 @@ hid5.onclick=function(){
 }
 */
 
-
-$(document).ready(function(){
-
 	const url1 = 'https://codeforces.com/api/user.info?handles=_Rishika_';
 	const url2 = 'https://codeforces.com/api/user.status?handle=_Rishika_&from=1&count=1000';
 	async function getRating(){

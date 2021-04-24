@@ -15,7 +15,7 @@ html{
 	height: 60px;
 	z-index:1;
 	display: flex;
-	background-color: black;
+	background:rgba(0,0,0,0.8);
 	position: fixed !important;
 	align-items: center;
 	justify-content: space-between;
@@ -251,9 +251,37 @@ fieldset{
 	background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/project.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	height: 60vh;
 	background-size: 100% 100%; 
+	color:white;
 	clip-path: polygon(50% 0%, 100% 12%, 100% 100%, 50% 100%, 0 100%, 0 12%);
+}
+.project-row{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: rgb(45,52,54);
+	padding:50px 10px;
+	color: white;
+}
+
+.pro-box{
+	flex-basis: 33.33%;
+	text-align: center;
+	padding: 40px 0px;
+}
+
+.pro-box img{
+	height: 150px;
+	box-shadow: 10px 10px 8px 5px black;
+}
+
+.pro-box h2{
+	padding: 20px 0px;
+}
+.pro-box a{
+text-decoration: none;
+color: white;
 }
 
 #contacts{
