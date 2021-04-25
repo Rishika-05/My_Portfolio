@@ -76,6 +76,23 @@ header{
 	max-width: 450px;
 }
 
+.text{
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+@keyframes slidein{
+	from{
+		margin-left: 100%;
+		width: 600px; 
+	}
+	to{
+		margin-left: 33%;
+		width: 450px; 
+	}
+}
+
+
+
 .text h1{
 	font-size: 60px;
 	margin: 10px 0px 
